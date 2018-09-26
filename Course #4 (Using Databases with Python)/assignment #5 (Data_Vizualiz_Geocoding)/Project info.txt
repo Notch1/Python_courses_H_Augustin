@@ -1,0 +1,5 @@
+The assignment: start with "where.data", which stores the names of places (such as Northeastern University, University of London, etc) and then load it into"geoload.py" 
+to use google to look up the addresses of those places and obtain data about them, and then store those in the database "geodata.sqlite". Then " geodump.py" reads that 
+database and produces "where.js" which allows the user to open "where.html" to see a visualization of those places in a google map. I added the place "University College
+in London" to "where.data" and then ran geoload.py and geodump.py and then opened where.html to see its location on the map. 
+This project was done in Python2.7.
